@@ -1,0 +1,29 @@
+body {
+    margin-left: 200px auto;
+    color: #d6d7e3;
+    background-color: #171717;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.mainlink {
+    font-size: 48px;
+    width: 380px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.link {
+    /* background-color: aqua; */
+    font-size: 36px;
+    text-align: center;
+    width: 380px;
+    margin: 1em auto ;
+}
+.image {
+    width: 200px;
+}
+.imgszovleft {
+    float: left;
+    margin-left: 300px;
+}
