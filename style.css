@@ -2,6 +2,10 @@ html {
     color: #EFF0F6;
     background-color: #272933;
     text-align: center;
+
+}
+
+.maintext {
     margin: auto;
 }
 
@@ -39,8 +43,13 @@ html {
     position: fixed;
     right: 0;
     left: 0;
-    bottom: 0.1%;
+    bottom: 1px;
     text-align: center;
     font-size: 36px;
     border: 1px solid black;
+    border-bottom-style: hidden;
+}
+.footer p {
+    margin: 0px 0px 4% 0px;
+    max-height: fit-content;
 }
