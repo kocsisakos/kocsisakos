@@ -5,8 +5,11 @@ html {
 
 }
 
-.maintext {
+.maintxt {
     margin: auto;
+    padding: 3px;
+    font-size: 32px;
+    margin-left: 15%;
 }
 
 .mainlink {
@@ -23,33 +26,108 @@ html {
     width: 380px;
     margin: 1em auto ;
 }
+
 .imgs {
     width: 150px;
     margin: auto;
 }
+
 .imgm {
     width: 200px;
     margin: auto;
+    margin-left: 100%;
 }
+
 .imgl {
     width: 250px;
     margin: auto;
 }
+
 .imgxl {
     width: 300px;
     margin: auto;
 }
-.footer {
-    position: fixed;
-    right: 0;
+
+.footertable {
+    width: 100%;
+    bottom: 0.2%;
     left: 0;
-    bottom: 1px;
+    right: 0;
+    position: fixed;
+    margin: 0;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     border: 1px solid black;
-    border-bottom-style: hidden;
+    border-bottom: hidden;
 }
+
 .footer p {
-    margin: 0px 0px 4% 0px;
-    max-height: fit-content;
+    margin: 0;
+}
+
+.footerleft {
+    width: 33%;
+    padding-left: 5px;
+    text-align: left;
+    font-size: 24px;
+}
+
+.footermid {
+    width: 33%;
+
+}
+
+.footerright {
+    width: 33%;
+    padding-right: 5px;
+    text-align: right;
+    font-size: 24px;
+}
+
+a {
+    color: blue;
+}
+
+.tabletest td {
+    border: 2px solid red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: oblique;
+}
+.felsorolas {
+    text-align: left;
+    font-size: 24px;
+    padding-left: 20%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.table {
+    border: 3px solid red;
+    border-collapse: collapse;
+    width: 45%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.table td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+    font-size: 24px;
+}
+
+.red {
+    color: yellow;
 }
