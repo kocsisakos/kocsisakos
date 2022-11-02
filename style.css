@@ -2,14 +2,17 @@ html {
     color: #EFF0F6;
     background-color: #272933;
     text-align: center;
+}
 
+body {
+    width: 1750px;
+    margin: auto;
 }
 
 .maintxt {
     margin: auto;
-    padding: 3px;
     font-size: 32px;
-    margin-left: 15%;
+    padding-top: 20px;
 }
 
 .mainlink {
@@ -27,43 +30,30 @@ html {
     margin: 1em auto ;
 }
 
-.imgs {
-    width: 150px;
-    margin: auto;
-}
-
 .imgm {
     width: 200px;
-    margin: auto;
-    margin-left: 100%;
-}
-
-.imgl {
-    width: 250px;
-    margin: auto;
-}
-
-.imgxl {
-    width: 300px;
-    margin: auto;
+    float: left;
 }
 
 .footertable {
     width: 100%;
-    bottom: 0.2%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
     left: 0;
     right: 0;
-    position: fixed;
-    margin: 0;
-    text-align: center;
-    font-size: 24px;
+    margin-top: 20px;
+    padding: 5px;
     border: 1px solid black;
     border-bottom: hidden;
+    text-align: center;
+    font-size: 24px;
 }
 
 .footer p {
     margin: 0;
 }
+
 
 .footerleft {
     width: 33%;
@@ -73,8 +63,7 @@ html {
 }
 
 .footermid {
-    width: 33%;
-
+    float: center;
 }
 
 .footerright {
@@ -86,6 +75,7 @@ html {
 
 a {
     color: blue;
+    font-size: 24px;
 }
 
 .tabletest td {
@@ -111,16 +101,17 @@ h2 {
 }
 
 .table {
-    border: 3px solid red;
+    border: 3px solid #C70039;
     border-collapse: collapse;
     width: 45%;
-    left: 0;
+    left: 33%;
     right: 0;
     margin: auto;
     margin-top: 5px;
+    position: inherit;
 }
 
-.table td, th {
+.table td { 
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
@@ -128,6 +119,15 @@ h2 {
     font-size: 24px;
 }
 
-.red {
-    color: yellow;
+.table td:first-child {
+    font-weight: bold;
+}
+
+table th {
+    padding: 4px;
+    font-size: 32px;
+}
+
+.sarga {
+    color: #FFC300;
 }
