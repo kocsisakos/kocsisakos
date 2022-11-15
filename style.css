@@ -16,6 +16,7 @@ body {
     min-height: 790px;
 }
 
+
 .maintxt {
     margin: auto;
     font-size: 32px;
@@ -117,6 +118,7 @@ table th {
 }
 
 .container {
+    height: 0;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -125,6 +127,7 @@ table th {
 }
 
 .footer--flex {
+    height: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
