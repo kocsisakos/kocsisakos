@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    margin: auto;
+}
+
+html {
+    color: #EFF0F6;
+    background-color: #272933;
+    text-align: center;
+    line-height: 1.15;
+}
+
+body {
+    width: auto;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    margin: auto;
+    margin-top: calc(33vh + 35px);
+    color: red;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #bbb;
+}
+
+.ok a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#vissza {
+    color: #bbb;
+    margin-left: 5vw;
+    margin-right: 20vw;
+}
+
+#vissza:hover {
+    color: blue;
+    text-decoration: underline;
+}

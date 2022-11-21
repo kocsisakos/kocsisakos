@@ -13,22 +13,58 @@ body {
     width: auto;
     margin: auto;
     font-family: "Inter", sans-serif;
-    min-height: 790px;
+    font-size: 24px;
 }
 
-
-.maintxt {
-    margin: auto;
+#header {
+    width: 60vw;
     font-size: 32px;
-    padding-top: 20px;
+    margin: auto;
+    min-height: 15vw;
+    text-align: center;
 }
 
-.mainlink {
-    font-size: 48px;
-    width: 380px;
-    text-align: center;
+hr {
+    width: 70vw;
+    margin-top: 80px;
+}
+
+#logo {
+    float: left;
+}
+
+main {
+    min-height: calc(95vh - 30px);
+    background-color: #1F2128;
+    max-width: 95vw;
     margin: auto;
-    color: red;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tortenet {
+    margin: auto;
+    max-width: 60vw;
+    margin-bottom: 15vh;
+    width: 50vw;
+    text-align: justify;
+}
+
+.container {
+    padding-top: 14px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+ul, ol {
+    list-style-type: none;
 }
 
 .link {
@@ -38,18 +74,9 @@ body {
     margin: 1em auto ;
 }
 
-.imgm {
-    width: 200px;
-    float: left;
-}
-
 a {
     color: blue;
     font-size: 24px;
-}
-
-.tabletest td {
-    border: 2px solid red;
 }
 
 .bold {
@@ -59,15 +86,30 @@ a {
 .italic {
     font-style: oblique;
 }
+
 .felsorolas {
     text-align: left;
     font-size: 24px;
     padding-left: 20%;
+    list-style-type: square;
+}
+
+.felsorolas li {
+    padding: 5px;
+}
+
+.felsorolas li:first {
+    padding-top: 0;
+}
+
+.felsorolas li:last-child {
+    padding-bottom: 0;
 }
 
 h2 {
     font-weight: bold;
     font-size: 36px;
+    margin-top: 7.5vh;
 }
 
 .table {
@@ -77,8 +119,8 @@ h2 {
     left: 33%;
     right: 0;
     margin: auto;
-    margin-top: 5px;
-    position: inherit;
+    margin-bottom: 0;
+    margin-top: 7vh;
 }
 
 .table td { 
@@ -105,25 +147,16 @@ table th {
 /* ----------footer---------- */
 
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 0px;
     border-top: 1px solid #17181D;
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 0;
     color: #b9b9b9;
     font-size: 12px;
-}
-
-.container {
-    height: 0;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .footer--flex {
@@ -158,8 +191,8 @@ table th {
     margin-right: 0;
 }
 
-.footer-end li:first-child {
-    font-weight: bolder;
+.footer-end li:first-child a {
+    font-weight: bold;
     font-size: calc(100% + 10px);
 }
   
@@ -175,8 +208,4 @@ table th {
 .footer a:hover {
     color: #2f49d1;
     border-color: #2f49d1;
-}
-
-ul, ol {
-    list-style-type: none;
 }
