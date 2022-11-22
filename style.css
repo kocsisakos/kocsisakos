@@ -3,10 +3,10 @@
 }
 
 html {
-    color: #EFF0F6;
+    color: #b9b9b9;
     background-color: #272933;
     text-align: center;
-    line-height: 1.15;
+    line-height: 1.1;
 }
 
 body {
@@ -18,15 +18,17 @@ body {
 
 #header {
     width: 60vw;
-    font-size: 32px;
+    font-size: 32px !important;
     margin: auto;
     min-height: 15vh;
     text-align: center;
 }
 
 hr {
-    width: 40vw;
+    width: 45vw;
     margin-top: 80px;
+    margin-right: 14vw;
+
 }
 
 #logo {
@@ -72,22 +74,46 @@ main {
     margin-left: auto;
 }
 
-
-ul, ol {
+ul {
     list-style-type: none;
-}
-
-#link p, a {
-    font-size: 36px;
-    text-align: center;
-    width: 380px;
-    margin: 3vh auto ;
 }
 
 a {
     color: blue;
     font-size: 24px;
 }
+
+#link {
+    padding: 16px;
+}
+
+#link a {
+    font-size: 36px;
+    color: #b9b9b9 ;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 2.83;
+    border-bottom: 1px transparent dashed;
+}
+
+#link a:hover {
+    color: #2f49d1;
+    border-color: #2f49d1;
+}
+
+#header a, a:visited, a:active {
+    font-size: 60px;
+    color: #b9b9b9;
+    text-decoration: none;
+    border-bottom: 1px transparent dashed;
+    font-weight: bold;
+}
+
+#header a:hover {
+    color: #2f49d1;
+    border-color: #2f49d1; 
+}
+
 
 .bold {
     font-weight: bold;
@@ -100,27 +126,29 @@ a {
 .felsorolas {
     text-align: left;
     font-size: 24px;
-    margin-left: 18vw;
+    margin-left: 20vw;
     list-style-type: square;
 }
 
-.imgsorolas {
-    margin-left: 5vw;
+.felsorolas2 {
+    text-align: left;
+    font-size: 24px;
+    margin-left: 20vw;
 }
 
 .kozep {
     margin-left: 33vw;
 }
 
-.felsorolas li {
+.felsorolas, .felsorolas2 li {
     padding: 5px;
 }
 
-.felsorolas li:first {
+.felsorolas, .felsorolas2 li:first {
     padding-top: 0;
 }
 
-.felsorolas li:last-child {
+.felsorolas, .felsorolas2 li:last-child {
     padding-bottom: 0;
 }
 
@@ -162,13 +190,13 @@ table th {
     color: #FFC300;
 }
 
-/* ----------footer---------- */
+/* --------------------footer-------------------- */
 
 .footer {
     position: relative;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 99vw;
     height: 0px;
     border-top: 1px solid #17181D;
     padding-top: 3px;
@@ -216,7 +244,7 @@ table th {
 
 .footer a {
     font-size: 12px;
-    color: #b9b9b9;
+    color: #b9b9b9 !important;
     text-decoration: none;
     font-weight: 500;
     line-height: 2.83;
@@ -224,18 +252,42 @@ table th {
 }
 
 .footer a:hover {
-    color: #2f49d1;
+    color: #2f49d1 !important;
     border-color: #2f49d1;
 }
 
 /* ------------------------ footer end --------------------------------- */
 
-h5 {
+h4, h5, h6, .clear {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
 }
+
+h4, h6 {
+    font-weight: normal;
+}
+
 .fo-li {
     font-weight: bold;
     font-size: 1.25em;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#felhivas {
+    border-radius: 50px;
+    background-color: rgba(242, 100, 100, 0.13);
+    padding-top: 9px;
+    width: 50vw;
+    height: 10.5em;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    color: rgb(242, 100, 100);
+}
+
+#felhivaslab {
+    color: rgb(242, 100, 100); 
+    font-size: 24px;
 }
